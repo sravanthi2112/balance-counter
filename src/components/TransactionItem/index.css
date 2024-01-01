@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.details {
+  font-weight: 400 !important;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+.delete {
+  width: 25px;
+  height: 25px;
+  margin-right: 2%;
+}
+
+li {
+  border-bottom: 1px solid #d7dfe9;
+}
+
+.history-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px #0b69ff solid;
+  padding-bottom: 0px;
+}

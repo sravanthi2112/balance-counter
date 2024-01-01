@@ -1,0 +1,87 @@
+/* Write your CSS here */
+
+.money-details-list {
+  list-style-type: none;
+}
+
+.moneny-details-container {
+  display: flex;
+}
+
+.money-details-images {
+  width: 75px;
+  height: 75px;
+  border: 1px black solid;
+  margin-right: 4%;
+  margin-left: 3%;
+}
+
+.your-balance-conatiner {
+  background-color: #ecfccb;
+  border: 1px #84cc16 solid;
+  width: 32%;
+  display: flex;
+  border-radius: 15px;
+  margin-right: 3%;
+  padding: 1%;
+  align-items: center;
+}
+
+.your-income-conatiner {
+  background-color: #cffafe;
+  border: 1px #06b6d4 solid;
+  border-radius: 15px;
+  width: 32%;
+  display: flex;
+  margin-right: 3%;
+  padding: 1%;
+  align-items: center;
+}
+
+.your-expenses-conatiner {
+  background-color: #ede9fe;
+  border: 1px #7c3aed solid;
+  border-radius: 15px;
+  width: 32%;
+  display: flex;
+  padding: 1%;
+  align-items: center;
+}
+
+.detail {
+  font-weight: 500;
+  color: #334155;
+  border: 1px #7c3aed solid;
+  margin-bottom: 0%;
+}
+
+.rupees {
+  font-size: 25px;
+  font-weight: 600;
+  color: #334155;
+  border: 1px #7c3aed solid;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .moneny-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .your-balance-conatiner {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+  .your-expenses-conatiner {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+  .your-income-conatiner {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+  .money-details-images {
+    width: 55px;
+    height: 55px;
+  }
+}
